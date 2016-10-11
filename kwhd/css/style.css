@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Css Rrest*/
+body, div, table, tr, td, h1, h2, h3, h4, h5, h6, form, input, label, select, textarea, p, ul, ol, li, dl, dd, dt, img { margin: 0; padding: 0;}
+ 
+ol, ul, li { list-style: none; }
+a { text-decoration: none; } 
+em, i { font-style: normal; }
+table { border-collapse: collapse; border-spacing: 0; }
+/*=======清楚浮动======*/
+.clearfix:after { content: ""; display: block; height: 0; clear: both; visibility: hidden; font-size: 0; line-height: 0; }
+.clearfix { zoom: 1; }
+.clear { height: 0; clear: both; font-size: 0; line-height: 0; zoom: 1; }
+/*======内容======*/
+body { font: 16px/1.5 方正黑体简体 }
+body { color: #000 }
+.hx{background:#323232; text-align:center; padding:5px 0;}
+.shp img{width:100%;}
+.cadmain{background:#efefef; padding:0.5rem;}
+.rmsp{width:100%; background:#fff; border:1px #dbd9d9 solid; overflow:hidden; box-sizing:border-box;}
+.rmsp h2 font{font-size:0.95rem; color:#3c3c3c; margin-left:4px;}
+.rmsp h2 font,.rmsp h2 img{vertical-align:middle; margin-left:8px;}
+.rmsp h2 img{width:1rem;}
+.rmsp h2{padding:0.39rem 0;}
+.rmbt ul{width:100%; display:block;}
+.rmbt li{float:left; width:47%; margin:1.5%; height:auto; position:relative; overflow:hidden;}
+.rmbt li img{width:100%; height:auto;}
+.rmbt li .bg{position:absolute; width:100%; bottom:0px;}
+.rmbt li .wzbf{position:absolute; bottom:8px; overflow:hidden; display:block;color:#fff; margin-left:3%;}
+.rmbt li .wzbf .p1{font-size:0.59rem; font-weight:400; text-align:left;}
+.rmbt li .wzbf .p2{font-size:0.5rem; font-weight:400; text-align:left;}
+.li1{width:57%; margin:1.5%;}
+.li2{width:37%; margin:1.5%;}
+ 
+
+

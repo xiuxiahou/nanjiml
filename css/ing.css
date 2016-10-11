@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+li{list-style:none;}
+.page1{width:640px; height:1080px; margin:0 auto; position: relative;}
+.bg{width:100%; height:100%;position: absolute; overflow: hidden;}
+.bgimg{width: 100%; height: 100%;position: absolute;}
+.bgx{width: 2000px; height:2000px;position: absolute; left: -671px; top:-491px; z-index: 100;
+    animation: bgroll 5s linear infinite alternate;
+    -moz-animation: bgroll 5s linear infinite alternate;	/* Firefox */
+    -webkit-animation: bgroll 5s linear infinite alternate;	/* Safari 和 Chrome */
+    -o-animation: bgroll 5s linear infinite alternate;	/* Opera */}
+.klok{position: absolute; z-index: 120; top:288px; width: 631px; height: 415px; left: 8px;}
+.klok img{width: 100%; height: 100%;
+    transform-origin:0 100%; -moz-transform-origin:0 100%;-ms-transform-origin:0 100%;-webkit-transform-origin:0 100%;-o-transform-origin:0 100%;
+    transform:scaleY(0);  -moz-transform:scaleY(0); -ms-transform:scaleY(0); -webkit-transform:scaleY(0);-o-transform:scaleY(0);}
+.headx{position: absolute; z-index: 130; top:566px; width: 671px; height: 233px; left: -15px;}
+.headx img{width: 100%; height: 100%; transform:scaleY(0);
+    -moz-transform:scaleY(0);
+    -ms-transform:scaleY(0);
+    -webkit-transform:scaleY(0);
+    -o-transform:scaleY(0);}
+.yz{position: absolute; z-index: 125; top:175px; width: 335px; height: 472px; left: 160px;}
+.yz img{width: 100%; height: 100%;transform:translateY(-621px); opacity: 0;
+    -moz-transform:translateY(-621px);
+    -ms-transform:translateY(-621px);
+    -webkit-transform:translateY(-621px);
+    -o-transform:translateY(-621px);}
+.tsfy{position: absolute; z-index: 140; top:430px; width: 304px; height: 226px; left: 151px;}
+.tsfy img{width: 100%; height: 100%; opacity: 0; transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    -o-transform:scale(1.5);}
+@keyframes bgroll{
+    0%      {transform:rotate(0);}
+    20%     {transform:rotate(30deg);}
+    40%     {transform:rotate(0deg);}
+    60%     {transform:rotate(-30deg);}
+    80%     {transform:rotate(0deg);}
+    100%    {transform:rotate(30deg);}
+
+}
+@-moz-keyframes bgroll /* Firefox */
+{
+    0%      {-moz-transform:rotate(0);}
+    20%     {-moz-transform:rotate(10deg)}
+    40%     {-moz-transform:rotate(30deg)}
+    60%     {-moz-transform:rotate(10deg)}
+    80%     {-moz-transform:rotate(0deg)}
+    100%    {-moz-transform:rotate(-30deg)}
+}
+
+@-webkit-keyframes bgroll /* Safari 和 Chrome */
+{
+    0%      {-webkit-transform:rotate(0);}
+    20%     {-webkit-transform:rotate(30deg);}
+    40%     {-webkit-transform:rotate(0deg);}
+    60%     {-webkit-transform:rotate(-30deg);}
+    80%     {-webkit-transform:rotate(0deg);}
+    100%    {-webkit-transform:rotate(30deg);}
+}
+
+@-o-keyframes bgroll /* Opera */
+{
+    0%      {-o-transform:rotate(0);}
+    20%     {-o-transform:rotate(10deg)}
+    40%     {-o-transform:rotate(30deg)}
+    60%     {-o-transform:rotate(10deg)}
+    80%     {-o-transform:rotate(0deg)}
+    100%    {-o-transform:rotate(-30deg)}
+}
